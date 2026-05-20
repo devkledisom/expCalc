@@ -1,0 +1,236 @@
+[{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd0d"
+  },
+  "LARG": "1,60",
+  "METROS": "250/300",
+  "PLÁSTICO": "0,300",
+  "NÚCLEO": "0,550",
+  "TARA": "0,850",
+  "ARTIGO": "TECIDO"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd10"
+  },
+  "LARG": "1,90",
+  "METROS": "100/150",
+  "PLÁSTICO": "0,300",
+  "NÚCLEO": "1,450",
+  "TARA": "1,750",
+  "ARTIGO": "TEC."
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd1b"
+  },
+  "LARG": "peças",
+  "METROS": "0,050",
+  "PLÁSTICO": "0,050",
+  "NÚCLEO": ""
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd16"
+  },
+  "LARG": "2,50",
+  "METROS": "200/250",
+  "PLÁSTICO": "0,300",
+  "NÚCLEO": "2,050",
+  "TARA": "2,350",
+  "ARTIGO": "385-484-517-490-532-524"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd11"
+  },
+  "LARG": "1,90",
+  "METROS": "100",
+  "PLÁSTICO": "0,250",
+  "NÚCLEO": "0,700",
+  "TARA": "0,950",
+  "ARTIGO": "TECIDO"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd0e"
+  },
+  "LARG": "1,60",
+  "METROS": "100",
+  "PLÁSTICO": "0,250",
+  "NÚCLEO": "0,550",
+  "TARA": "0,800",
+  "ARTIGO": "FLANELAS"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd19"
+  },
+  "LARG": "1,60",
+  "METROS": "200",
+  "PLÁSTICO": "0,250",
+  "NÚCLEO": "0,550",
+  "TARA": "0,800",
+  "ARTIGO": "ACABADO"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd0a"
+  },
+  "LARG": "1,50",
+  "METROS": "100",
+  "PLÁSTICO": "0,250",
+  "NÚCLEO": "0,550",
+  "TARA": "0,800",
+  "ARTIGO": "FLANELAS"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd07"
+  },
+  "LARG": "1,35",
+  "METROS": "100",
+  "PLÁSTICO": "0,150",
+  "NÚCLEO": "0,580",
+  "TARA": "0,730",
+  "ARTIGO": "Kenia"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd08"
+  },
+  "LARG": "1,50",
+  "METROS": "100",
+  "PLÁSTICO": "0,200",
+  "NÚCLEO": "0,550",
+  "TARA": "0,750",
+  "ARTIGO": "TECIDO"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd0c"
+  },
+  "LARG": "1,60",
+  "METROS": "100",
+  "PLÁSTICO": "0,200",
+  "NÚCLEO": "0,550",
+  "TARA": "0,750",
+  "ARTIGO": "TECIDO"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd09"
+  },
+  "LARG": "2,50",
+  "METROS": "100",
+  "PLÁSTICO": "0,150",
+  "NÚCLEO": "0,580",
+  "TARA": "0,730",
+  "ARTIGO": "ENFESTADOS"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd13"
+  },
+  "LARG": "1,80",
+  "METROS": "100",
+  "PLÁSTICO": "0,200",
+  "NÚCLEO": "0,700",
+  "TARA": "0,900",
+  "ARTIGO": "449"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd0f"
+  },
+  "LARG": "1,60",
+  "METROS": "100",
+  "PLÁSTICO": "0,250",
+  "NÚCLEO": "0,550",
+  "TARA": "0,800",
+  "ARTIGO": "ACABADO"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd1a"
+  },
+  "LARG": "1,40",
+  "METROS": "500",
+  "PLÁSTICO": "0,000",
+  "NÚCLEO": ""
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd0b"
+  },
+  "LARG": "1,50",
+  "METROS": "500",
+  "PLÁSTICO": "0,250",
+  "NÚCLEO": "0,600",
+  "TARA": "0,850",
+  "ARTIGO": "442"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd15"
+  },
+  "LARG": "1,45",
+  "METROS": "100",
+  "PLÁSTICO": "0,200",
+  "NÚCLEO": "0,450",
+  "TARA": "0,650",
+  "ARTIGO": "PINGUIM"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd12"
+  },
+  "LARG": "2,50",
+  "METROS": "100/200",
+  "PLÁSTICO": "0,250",
+  "NÚCLEO": "2,050",
+  "TARA": "2,300",
+  "ARTIGO": "385-484-517-490-532-524"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd14"
+  },
+  "LARG": "1,45",
+  "METROS": "200",
+  "PLÁSTICO": "0,250",
+  "NÚCLEO": "0,450",
+  "TARA": "0,700",
+  "ARTIGO": "PINGUIM"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd17"
+  },
+  "LARG": "1,50",
+  "METROS": "500/550",
+  "PLÁSTICO": "0,400",
+  "NÚCLEO": "1,250",
+  "TARA": "1,650",
+  "ARTIGO": "442-498"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd18"
+  },
+  "LARG": "1,50",
+  "METROS": "250",
+  "PLÁSTICO": "0,300",
+  "NÚCLEO": "1,250",
+  "TARA": "1,550",
+  "ARTIGO": "442"
+},
+{
+  "_id": {
+    "$oid": "64de84b73f1ac1972dafdd1c"
+  },
+  "LARG": "fardos",
+  "METROS": "0,050",
+  "PLÁSTICO": "0,750",
+  "NÚCLEO": "0,80"
+}]

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPCALC</title>
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+    <link rel="stylesheet" href="./assets/index.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h2>CALCULADORA V2</h2>
+        </header>
+        <nav class="area-btn">
+            <button id="btn-view" class="btn-nav" onclick="navegar('details.html')">view</button>
+            <button id="btn-rte" class="btn-nav" onclick="navegar('rte.html')">rte</button>
+            <button id="btn-tar" class="btn-nav" onclick="navegar('tara.html')">tara</button>
+            <button id="auto-save" class="btn-nav" onclick="autoSave()">auto-save</button>
+            <button id="auto-conclused" class="btn-nav" onclick="sendObj()">Concluir</button>
+        </nav>
+        <form>
+            <label for="cliente" class="label-name">Nome do cliente</label>
+            <input type="text" name="cliente" id="cliente">
+
+            <label for="pedido" class="label-name">Nº de pedido</label>
+            <input type="text" inputmode="numeric" name="pedido" id="pedido">
+
+            <div class="codigo">
+                <label for="codigo">codigo</label>
+                <input type="text" name="codigo" id="codigo" inputmode="numeric" placeholder="387-0001-33">
+            </div>
+            <div class="tara">
+                <label for="tara">tara</label>
+                <input type="number" name="tara" id="tara" inputmode="numeric" placeholder="500">
+            </div>
+
+            <div class="model">
+                <label for="model">model</label>
+                <input type="text" name="model" id="model">
+
+                <label for="len">len</label>
+                <input type="text" name="len" id="len" />
+
+               <!-- <label for="defaultLinear">linear Padrão</label>
+                <input type="text" name="defaultLinear" id="defaultLinear" disabled/>-->
+            </div>
+
+            <div class="model-padroes">             
+                <input type="text" name="min-linear" id="min-linear" disabled/>
+                <input type="text" name="defaultLinear" id="defaultLinear" disabled/>
+                <input type="text" name="max-linear" id="max-linear" disabled/>
+            </div>
+
+            <span id="display"></span>
+            <div class="peso_met">
+                <div class="insert">
+                    <label for="peso">peso</label>
+                    <input type="text" inputmode="numeric" name="peso" id="peso" >
+                </div>
+                <div class="insert">
+                    <label for="met">met</label>
+                    <input type="text" inputmode="numeric" name="met" id="met" >
+                </div>
+            </div>
+            <button id="btn-save">Salvar</button>
+            <dialog id="myDialog">SALVO!</dialog>
+        </form>
+        <!--<footer>dev_kledisom</footer>-->
+    </main>
+<script src="./js/index.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch((err) => console.log('Service Worker registration failed:', err));
+  }
+</script>
+</body>
+</html>

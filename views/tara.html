@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTE</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+    <link rel="stylesheet" href="../assets/tar.css" >
+</head>
+<body>
+    <main class="container">
+        <h1>Tabela das Taras</h1>
+        <nav class="area-btn">
+            <button id="home" onclick="navegar()">HOME</button>
+<!--             <button id="delete" onclick="apagar()">DELETE</button>
+            <button id="buscar" onclick="buscar()">BUSCAR</button>
+            <button id="novo" onclick="novo()">NOVO</button> -->
+        </nav>
+        <section class="view-table">
+            <table border="1">
+                <thead>
+                    <th>LARGURA</th>
+                    <th>METROS</th>
+                    <th>PLÁSTICO</th>
+                    <th>NÚCLEO</th>
+                    <th>TARA</th>
+                    <th>ARTIGO</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </main>
+ 
+<script src="../js/tar.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('../sw.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch((err) => console.log('Service Worker registration failed:', err));
+  }
+</script>
+</body>
+</html>

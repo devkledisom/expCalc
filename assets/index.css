@@ -1,0 +1,124 @@
+@font-face {
+    font-family: popins;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+body {
+    font-family: popins;
+    background: #ffcc29 url(./img/tecidos-de-qualidade-capa.jpg);
+    z-index: 0;
+    background-position: left;
+}
+
+.aproved {
+    background-color: green;
+}
+
+.disapproved {
+    background-color: red;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.area-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+    background-color: #5555;
+}
+
+.btn-nav {
+    height: 30px;
+    width: 100px;
+}
+
+.label-name {
+    margin-top: 5px;
+}
+
+#pedido,
+#cliente {
+    height: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.model,
+.codigo,
+.tara {
+    padding: 10px;
+
+}
+
+.peso_met {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    border: 1px solid #000;
+    background-color: #5555;
+    padding: 10px;
+}
+
+.insert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#peso,
+#met {
+    height: 40px;
+    width: 100px;
+    font-size: 1.5rem;
+}
+
+#btn-save {
+    margin-top: 10px;
+    height: 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 90%;
+}
+
+
+#myDialog {
+    position: absolute;
+    top: 50px;
+    background-color: purple;
+    color: #fff;
+    border-color: #000;
+}
+
+.model-padroes {
+    display: flex;
+    /*  border: 1px solid red; */
+    justify-content: center;
+    gap: 10px
+}
+
+#defaultLinear,
+#min-linear,
+#max-linear {
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    background-color: #161616;
+    color: #fff;
+    border-radius: 5px;
+}

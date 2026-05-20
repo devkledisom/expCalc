@@ -1,0 +1,1579 @@
+[{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca0"
+  },
+  "cod": "6,2",
+  "largura": "1,60",
+  "desc": "288-0-01",
+  "modelo": "MUNDIAL",
+  "linear": "0,251",
+  "m2": "0,157",
+  "oz": "4,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcbf"
+  },
+  "cod": "15",
+  "largura": "1,60",
+  "desc": "442-0-01",
+  "modelo": "TELA",
+  "linear": "0,148",
+  "m2": "0,092",
+  "oz": "2,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca3"
+  },
+  "cod": "7,2",
+  "largura": "1,50",
+  "desc": "288-3-11",
+  "modelo": "MUNDIAL",
+  "linear": "0,212",
+  "m2": "0,141",
+  "oz": "4,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb0"
+  },
+  "cod": "11,1",
+  "largura": "1,40",
+  "desc": "347-2-09",
+  "modelo": "ZABELE",
+  "linear": "0,122",
+  "m2": "0,087",
+  "oz": "2,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc99"
+  },
+  "cod": "4",
+  "largura": "1,60",
+  "desc": "281-3-08",
+  "modelo": "KARINA",
+  "linear": "0,270",
+  "m2": "0,175",
+  "oz": "5,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca4"
+  },
+  "cod": "7,3",
+  "largura": "1,50",
+  "desc": "288-3-37",
+  "modelo": "MUNDIAL",
+  "linear": "0,228",
+  "m2": "0,152",
+  "oz": "4,5"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc94"
+  },
+  "cod": "1",
+  "largura": "1,50",
+  "desc": "225-0-01",
+  "modelo": "PANAMÁ",
+  "linear": "0,389",
+  "m2": "0,259",
+  "oz": "7,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca2"
+  },
+  "cod": "7,1",
+  "largura": "1,50",
+  "desc": "288-3-08",
+  "modelo": "MUNDIAL",
+  "linear": "0,226",
+  "m2": "0,151",
+  "oz": "4,4"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc96"
+  },
+  "cod": "3",
+  "largura": "1,40",
+  "desc": "234-1-14",
+  "modelo": "PINGUIM",
+  "linear": "0,239",
+  "m2": "0,171",
+  "oz": "5,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd8"
+  },
+  "cod": "20,2",
+  "largura": "1,35",
+  "desc": "514-3-08",
+  "modelo": "KENIA",
+  "linear": "0,177",
+  "m2": "0,131",
+  "oz": "3,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc97"
+  },
+  "cod": "3,1",
+  "largura": "1,80",
+  "desc": "278-0-01",
+  "modelo": "TUCURUI",
+  "linear": "0,208",
+  "m2": "0,116",
+  "oz": "3,4"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcaf"
+  },
+  "cod": "11",
+  "largura": "1,50",
+  "desc": "347-0-01",
+  "modelo": "ZABELÊ",
+  "linear": "0,142",
+  "m2": "0,095",
+  "oz": "2,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc9a"
+  },
+  "cod": "5",
+  "largura": "1,60",
+  "desc": "281-4-08",
+  "modelo": "KARINA",
+  "linear": "0,270",
+  "m2": "0,174",
+  "oz": "5,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc98"
+  },
+  "cod": "3,2",
+  "largura": "1,72",
+  "desc": "281-0-01",
+  "modelo": "KARINA",
+  "linear": "0,313",
+  "m2": "0,182",
+  "oz": "5,4"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc95"
+  },
+  "cod": "2",
+  "largura": "1,40",
+  "desc": "234-0-29",
+  "modelo": "PINGUIM",
+  "linear": "0,231",
+  "m2": "0,165",
+  "oz": "4,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc9c"
+  },
+  "cod": "5,2",
+  "largura": "1,60",
+  "desc": "282-3-08",
+  "modelo": "MANDI",
+  "linear": "0,212",
+  "m2": "0,132",
+  "oz": "3,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc9f"
+  },
+  "cod": "6,1",
+  "largura": "1,60",
+  "desc": "282-4-08",
+  "modelo": "MANDI",
+  "linear": "0,229",
+  "m2": "0,143",
+  "oz": "4,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca1"
+  },
+  "cod": "7",
+  "largura": "1,50",
+  "desc": "288-3-06",
+  "modelo": "MUNDIAL",
+  "linear": "0,223",
+  "m2": "0,149",
+  "oz": "4,4"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcab"
+  },
+  "cod": "10,1",
+  "largura": "1,50",
+  "desc": "338-0-01",
+  "modelo": "TELA",
+  "linear": "6,000",
+  "m2": "4,000",
+  "oz": "118,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcae"
+  },
+  "cod": "10,4",
+  "largura": "1,40",
+  "desc": "338-3-12",
+  "modelo": "TELA",
+  "linear": "0,262",
+  "m2": "0,187",
+  "oz": "5,5"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb8"
+  },
+  "cod": "13,3",
+  "largura": "1,60",
+  "desc": "399-3-12",
+  "modelo": "MUNDI",
+  "linear": "0,233",
+  "m2": "0,146",
+  "oz": "4,3"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc5"
+  },
+  "cod": "16",
+  "largura": "1,60",
+  "desc": "447-4-08",
+  "modelo": "SARJA",
+  "linear": "0,383",
+  "m2": "0,239",
+  "oz": "7,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd7"
+  },
+  "cod": "20,1",
+  "largura": "2,43",
+  "desc": "499-0-01",
+  "modelo": "LINHOL",
+  "linear": "0,405",
+  "m2": "0,167",
+  "oz": "4,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce9"
+  },
+  "cod": "26",
+  "largura": "1,85",
+  "desc": "538-3-39",
+  "modelo": "atualizar",
+  "linear": "0,276",
+  "m2": "0,149",
+  "oz": "4,4"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf5"
+  },
+  "cod": "31",
+  "largura": "2,50",
+  "desc": "559-3-55",
+  "modelo": "atualizar",
+  "linear": "0,249",
+  "m2": "0,100",
+  "oz": "2,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca5"
+  },
+  "cod": "7,4",
+  "largura": "1,40",
+  "desc": "300-3-09",
+  "modelo": "TUCURUI",
+  "linear": "0,148",
+  "m2": "0,106",
+  "oz": "3,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcac"
+  },
+  "cod": "10,2",
+  "largura": "1,40",
+  "desc": "338-3-61",
+  "modelo": "TELA",
+  "linear": "0,271",
+  "m2": "0,194",
+  "oz": "5,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcbd"
+  },
+  "cod": "14,2",
+  "largura": "1,60",
+  "desc": "401-3-29",
+  "modelo": "FLAN.",
+  "linear": "CLEAN",
+  "m2": "0,211",
+  "oz": "0,132"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd6"
+  },
+  "cod": "20",
+  "largura": "1,50",
+  "desc": "497-3-52",
+  "modelo": "TELA",
+  "linear": "0,144",
+  "m2": "0,096",
+  "oz": "2,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcec"
+  },
+  "cod": "28",
+  "largura": "1,73",
+  "desc": "542-0-01",
+  "modelo": "BRIM",
+  "linear": "0,464",
+  "m2": "0,268",
+  "oz": "7,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf8"
+  },
+  "cod": "32,1",
+  "largura": "2,55",
+  "desc": "562-3-39",
+  "modelo": "PERCAL",
+  "linear": "0,323",
+  "m2": "0,127",
+  "oz": "3,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcfd"
+  },
+  "cod": "34",
+  "largura": "2,85",
+  "desc": "568-3-12",
+  "modelo": "atualizar",
+  "linear": "0,303",
+  "m2": "0,106",
+  "oz": "3,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb2"
+  },
+  "cod": "12,1",
+  "largura": "2,60",
+  "desc": "385-0-01",
+  "modelo": "PREMIUM",
+  "linear": "0,312",
+  "m2": "0,120",
+  "oz": "3,5"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb5"
+  },
+  "cod": "13",
+  "largura": "2,50",
+  "desc": "385-3-53",
+  "modelo": "PREMIUM",
+  "linear": "0,262",
+  "m2": "0,109",
+  "oz": "3,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc0"
+  },
+  "cod": "15,1",
+  "largura": "1,50",
+  "desc": "442-3-08",
+  "modelo": "TELA",
+  "linear": "0,136",
+  "m2": "0,091",
+  "oz": "2,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc9"
+  },
+  "cod": "17",
+  "largura": "1,60",
+  "desc": "471-3-09",
+  "modelo": "SARJA",
+  "linear": "0,397",
+  "m2": "0,248",
+  "oz": "7,3"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdccd"
+  },
+  "cod": "18",
+  "largura": "2,50",
+  "desc": "484-3-39",
+  "modelo": "PERCAL",
+  "linear": "0,254",
+  "m2": "0,102",
+  "oz": "3,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd0"
+  },
+  "cod": "18,3",
+  "largura": "1,50",
+  "desc": "487-0-61",
+  "modelo": "LINHÃO",
+  "linear": "0,247",
+  "m2": "0,165",
+  "oz": "4,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd2"
+  },
+  "cod": "18,5",
+  "largura": "1,73",
+  "desc": "489-0-01",
+  "modelo": "atualizar",
+  "linear": "0,422",
+  "m2": "0,244",
+  "oz": "7,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcdf"
+  },
+  "cod": "22,1",
+  "largura": "2,50",
+  "desc": "517-3-55",
+  "modelo": "PERCAL",
+  "linear": "0,308",
+  "m2": "0,123",
+  "oz": "3,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf2"
+  },
+  "cod": "30,2",
+  "largura": "2,50",
+  "desc": "557.3.55",
+  "modelo": "atualizar",
+  "linear": "0,312",
+  "m2": "0,125",
+  "oz": "3,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdd01"
+  },
+  "cod": "35",
+  "largura": "1,86",
+  "desc": "600-0-01",
+  "modelo": "atualizar",
+  "linear": "0,532",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdd03"
+  },
+  "cod": "37",
+  "largura": "1,70",
+  "desc": "602-4-7",
+  "modelo": "atualizar",
+  "linear": "0,485",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdd05"
+  },
+  "cod": "39",
+  "largura": "2,20",
+  "desc": "606-3-12",
+  "modelo": "atualizar",
+  "linear": "0,265"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcad"
+  },
+  "cod": "10,3",
+  "largura": "1,40",
+  "desc": "338-3-62",
+  "modelo": "TELA",
+  "linear": "0,265",
+  "m2": "0,189",
+  "oz": "5,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb4"
+  },
+  "cod": "12,3",
+  "largura": "2,50",
+  "desc": "385-3-39",
+  "modelo": "PREEMIUM",
+  "linear": "0,266",
+  "m2": "0,110",
+  "oz": "3,3"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc6"
+  },
+  "cod": "16,1",
+  "largura": "1,60",
+  "desc": "447-4-11",
+  "modelo": "SARJA",
+  "linear": "0,371",
+  "m2": "0,232",
+  "oz": "6,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcdb"
+  },
+  "cod": "20,5",
+  "largura": "1,50",
+  "desc": "515-4-08",
+  "modelo": "T.MARIANA",
+  "linear": "0,182",
+  "m2": "0,121",
+  "oz": "3,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf3"
+  },
+  "cod": "30,3",
+  "largura": "2,50",
+  "desc": "559-3-12",
+  "modelo": "PERCAL",
+  "linear": "0,248",
+  "m2": "0,099",
+  "oz": "2,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca8"
+  },
+  "cod": "9",
+  "largura": "1,50",
+  "desc": "320-1-14",
+  "modelo": "F.PLUMA",
+  "linear": "0,219",
+  "m2": "0,146",
+  "oz": "4,3"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcba"
+  },
+  "cod": "13,5",
+  "largura": "1,60",
+  "desc": "399-4-11",
+  "modelo": "MUNDI",
+  "linear": "0,233",
+  "m2": "0,146",
+  "oz": "4,3"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc2"
+  },
+  "cod": "15,3",
+  "largura": "1,50",
+  "desc": "442-3-52",
+  "modelo": "TELA",
+  "linear": "0,143",
+  "m2": "0,095",
+  "oz": "2,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd3"
+  },
+  "cod": "18,6",
+  "largura": "2,50",
+  "desc": "490-3-53",
+  "modelo": "PERCAL",
+  "linear": "0,330",
+  "m2": "0,132",
+  "oz": "3,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce0"
+  },
+  "cod": "22,2",
+  "largura": "2,50",
+  "desc": "517-3-53",
+  "modelo": "atualizar",
+  "linear": "0,306",
+  "m2": "0,122",
+  "oz": "3,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce2"
+  },
+  "cod": "23,1",
+  "largura": "2,50",
+  "desc": "524-3-53",
+  "modelo": "CETIM",
+  "linear": "0,336",
+  "m2": "0,134",
+  "oz": "4,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcef"
+  },
+  "cod": "29,1",
+  "largura": "1,50",
+  "desc": "550.3.14",
+  "modelo": "atualizar",
+  "linear": "0,390",
+  "m2": "0,260",
+  "oz": "7,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc1"
+  },
+  "cod": "15,2",
+  "largura": "1,50",
+  "desc": "442-3-37",
+  "modelo": "TELA",
+  "linear": "0,140",
+  "m2": "0,093",
+  "oz": "2,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcdd"
+  },
+  "cod": "21,1",
+  "largura": "2,50",
+  "desc": "517-3-12",
+  "modelo": "PERCAL",
+  "linear": "0,304",
+  "m2": "0,122",
+  "oz": "3,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf6"
+  },
+  "cod": "31,1",
+  "largura": "1,40",
+  "desc": "561-3-09",
+  "modelo": "TAFETA",
+  "linear": "0,193",
+  "m2": "0,138",
+  "oz": "4,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc9b"
+  },
+  "cod": "5,1",
+  "largura": "1,78",
+  "desc": "282-0-01",
+  "modelo": "MANDI",
+  "linear": "0,231",
+  "m2": "0,130",
+  "oz": "3,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca7"
+  },
+  "cod": "8,1",
+  "largura": "1,50",
+  "desc": "320-0-14",
+  "modelo": "F.PLUMA",
+  "linear": "0,217",
+  "m2": "0,145",
+  "oz": "4,3"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcaa"
+  },
+  "cod": "10",
+  "largura": "1,50",
+  "desc": "320-3-14",
+  "modelo": "F.PLUMA",
+  "linear": "0,215",
+  "m2": "0,143",
+  "oz": "4,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc7"
+  },
+  "cod": "16,2",
+  "largura": "1,80",
+  "desc": "458-0-01",
+  "modelo": "SUPERCAL",
+  "linear": "0,135",
+  "m2": "0,075",
+  "oz": "2,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdccc"
+  },
+  "cod": "17,3",
+  "largura": "1,60",
+  "desc": "471-4-11",
+  "modelo": "SARJA",
+  "linear": "0,387",
+  "m2": "0,242",
+  "oz": "7,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce7"
+  },
+  "cod": "25",
+  "largura": "2,55",
+  "desc": "532-3-55",
+  "modelo": "PERCAL",
+  "linear": "0,327",
+  "m2": "0,128",
+  "oz": "3,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf7"
+  },
+  "cod": "32",
+  "largura": "2,55",
+  "desc": "562-3-55",
+  "modelo": "PERCAL",
+  "linear": "0,309",
+  "m2": "0,121",
+  "oz": "3,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdd02"
+  },
+  "cod": "36",
+  "largura": "1,74",
+  "desc": "601-4-07",
+  "modelo": "atualizar",
+  "linear": "0,364",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdccf"
+  },
+  "cod": "18,2",
+  "largura": "1,50",
+  "desc": "487-3-12",
+  "modelo": "LINHÃO",
+  "linear": "0,215",
+  "m2": "0,143",
+  "oz": "4,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcfe"
+  },
+  "cod": "34,1",
+  "largura": "2,55",
+  "desc": "567-3-12",
+  "modelo": "atualizar",
+  "linear": "0,297",
+  "m2": "0,116",
+  "oz": "3,4"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdccb"
+  },
+  "cod": "17,2",
+  "largura": "1,60",
+  "desc": "471-4-08",
+  "modelo": "SARJA",
+  "linear": "0,405",
+  "m2": "0,253",
+  "oz": "7,5"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd4"
+  },
+  "cod": "19",
+  "largura": "2,50",
+  "desc": "490-3-55",
+  "modelo": "PERCAL",
+  "linear": "0,323",
+  "m2": "0,129",
+  "oz": "3,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd5"
+  },
+  "cod": "19,1",
+  "largura": "1,62",
+  "desc": "492-0-01",
+  "modelo": "atualizar",
+  "linear": "0,379",
+  "m2": "0,234",
+  "oz": "6,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdced"
+  },
+  "cod": "28,1",
+  "largura": "1,75",
+  "desc": "545-0-01",
+  "modelo": "atualizar",
+  "linear": "0,426",
+  "m2": "0,243",
+  "oz": "7,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb6"
+  },
+  "cod": "13,1",
+  "largura": "2,50",
+  "desc": "385-3-55",
+  "modelo": "PREMIUM",
+  "linear": "0,260",
+  "m2": "0,110",
+  "oz": "3,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcbb"
+  },
+  "cod": "14",
+  "largura": "1,60",
+  "desc": "401.1.29",
+  "modelo": "F.CLEAN",
+  "linear": "0,215",
+  "m2": "0,134",
+  "oz": "4,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc3"
+  },
+  "cod": "15,4",
+  "largura": "1,75",
+  "desc": "447-0-01",
+  "modelo": "SARJA",
+  "linear": "0,424",
+  "m2": "0,242",
+  "oz": "7,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc4"
+  },
+  "cod": "15,5",
+  "largura": "1,60",
+  "desc": "447-3-08",
+  "modelo": "SARJA",
+  "linear": "0,380",
+  "m2": "0,242",
+  "oz": "7,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcca"
+  },
+  "cod": "17,1",
+  "largura": "1,60",
+  "desc": "471-3-08",
+  "modelo": "SARJA",
+  "linear": "0,432",
+  "m2": "0,270",
+  "oz": "8,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcda"
+  },
+  "cod": "20,4",
+  "largura": "1,50",
+  "desc": "515-3-08",
+  "modelo": "T.MARIANA",
+  "linear": "0,181",
+  "m2": "0,121",
+  "oz": "3,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcee"
+  },
+  "cod": "29",
+  "largura": "1,50",
+  "desc": "546-0-01",
+  "modelo": "atualizar",
+  "linear": "0,389",
+  "m2": "0,259",
+  "oz": "7,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf1"
+  },
+  "cod": "30,1",
+  "largura": "2,50",
+  "desc": "557.3.39",
+  "modelo": "atualizar",
+  "linear": "0,315",
+  "m2": "0,126",
+  "oz": "3,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcfa"
+  },
+  "cod": "32,3",
+  "largura": "2,55",
+  "desc": "567-3-53",
+  "modelo": "atualizar",
+  "linear": "0,302",
+  "m2": "0,118",
+  "oz": "3,5"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdd04"
+  },
+  "cod": "38",
+  "largura": "1,70",
+  "desc": "603-4-7",
+  "modelo": "atualizar",
+  "linear": "0,355",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf0"
+  },
+  "cod": "30",
+  "largura": "3,00",
+  "desc": "553-3-12",
+  "modelo": "TAFETA",
+  "linear": "0,378",
+  "m2": "0,126",
+  "oz": "3,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf4"
+  },
+  "cod": "30,4",
+  "largura": "2,50",
+  "desc": "559-3-39",
+  "modelo": "atualizar",
+  "linear": "0,253",
+  "m2": "0,101",
+  "oz": "3,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc9d"
+  },
+  "cod": "5,3",
+  "largura": "1,60",
+  "desc": "282-3-12",
+  "modelo": "MANDI",
+  "linear": "0,202",
+  "m2": "0,126",
+  "oz": "3,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdc9e"
+  },
+  "cod": "6",
+  "largura": "1,60",
+  "desc": "282-3-62",
+  "modelo": "MANDI",
+  "linear": "0,203",
+  "m2": "0,127",
+  "oz": "3,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca6"
+  },
+  "cod": "8",
+  "largura": "1,50",
+  "desc": "301-0-01",
+  "modelo": "MANDI",
+  "linear": "0,196",
+  "m2": "0,131",
+  "oz": "3,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb9"
+  },
+  "cod": "13,4",
+  "largura": "1,60",
+  "desc": "399-3-08",
+  "modelo": "MUNDI",
+  "linear": "0,247",
+  "m2": "0,154",
+  "oz": "4,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcff"
+  },
+  "cod": "34,2",
+  "largura": "1,74",
+  "desc": "600-4-07",
+  "modelo": "atualizar",
+  "linear": "0,481",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcbe"
+  },
+  "cod": "14,3",
+  "largura": "1,50",
+  "desc": "408-0-01",
+  "modelo": "KARINA",
+  "linear": "0,267",
+  "m2": "0,178",
+  "oz": "5,3"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcc8"
+  },
+  "cod": "16,3",
+  "largura": "1,72",
+  "desc": "471-0-01",
+  "modelo": "SARJA",
+  "linear": "0,459",
+  "m2": "0,267",
+  "oz": "7,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd1"
+  },
+  "cod": "18,4",
+  "largura": "1,50",
+  "desc": "487-3-62",
+  "modelo": "LINHÃO",
+  "linear": "0,215",
+  "m2": "0,143",
+  "oz": "4,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcd9"
+  },
+  "cod": "20,3",
+  "largura": "1,35",
+  "desc": "514-4-08",
+  "modelo": "KENIA",
+  "linear": "0,178",
+  "m2": "0,132",
+  "oz": "3,9"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce3"
+  },
+  "cod": "24",
+  "largura": "2,55",
+  "desc": "524-3-55",
+  "modelo": "CETIM",
+  "linear": "0,346",
+  "m2": "0,136",
+  "oz": "4,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce6"
+  },
+  "cod": "24,3",
+  "largura": "2,55",
+  "desc": "532-3-12",
+  "modelo": "PERCAL",
+  "linear": "0,329",
+  "m2": "0,129",
+  "oz": "3,8"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdceb"
+  },
+  "cod": "27,1",
+  "largura": "1,85",
+  "desc": "538-3-66",
+  "modelo": "atualizar",
+  "linear": "0,277",
+  "m2": "0,150",
+  "oz": "4,4"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdd00"
+  },
+  "cod": "34,3",
+  "largura": "1,62",
+  "desc": "597-3-08",
+  "modelo": "atualizar",
+  "linear": "0,308",
+  "m2": "0,190",
+  "oz": ""
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdca9"
+  },
+  "cod": "9,1",
+  "largura": "1,50",
+  "desc": "320-3-09",
+  "modelo": "PANO",
+  "linear": "0,216",
+  "m2": "0,144",
+  "oz": "4,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcde"
+  },
+  "cod": "22",
+  "largura": "2,50",
+  "desc": "517-3-39",
+  "modelo": "PERCAL",
+  "linear": "0,312",
+  "m2": "0,125",
+  "oz": "3,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce4"
+  },
+  "cod": "24,1",
+  "largura": "2,50",
+  "desc": "530-3-39",
+  "modelo": "PERCAL",
+  "linear": "0,306",
+  "m2": "0,122",
+  "oz": "3,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcea"
+  },
+  "cod": "27",
+  "largura": "1,85",
+  "desc": "538-3-61",
+  "modelo": "atualizar",
+  "linear": "0,265",
+  "m2": "0,143",
+  "oz": "4,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcf9"
+  },
+  "cod": "32,2",
+  "largura": "2,55",
+  "desc": "567-3-12",
+  "modelo": "atualizar",
+  "linear": "0,306",
+  "m2": "0,120",
+  "oz": "3,5"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb1"
+  },
+  "cod": "12",
+  "largura": "1,40",
+  "desc": "347-3-08",
+  "modelo": "ZABELE",
+  "linear": "0,128",
+  "m2": "0,091",
+  "oz": "2,7"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcce"
+  },
+  "cod": "18,1",
+  "largura": "2,50",
+  "desc": "484-3-55",
+  "modelo": "PERCAL",
+  "linear": "0,254",
+  "m2": "0,102",
+  "oz": "3,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce8"
+  },
+  "cod": "25,1",
+  "largura": "1,85",
+  "desc": "538-3-12",
+  "modelo": "atualizar",
+  "linear": "0,272",
+  "m2": "0,147",
+  "oz": "4,3"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcfb"
+  },
+  "cod": "33",
+  "largura": "2,55",
+  "desc": "567-3-39",
+  "modelo": "atualizar",
+  "linear": "0,311",
+  "m2": "0,122",
+  "oz": "3,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb3"
+  },
+  "cod": "12,2",
+  "largura": "2,50",
+  "desc": "385-3-12",
+  "modelo": "PREMIUM",
+  "linear": "0,264",
+  "m2": "0,106",
+  "oz": "3,1"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcb7"
+  },
+  "cod": "13,2",
+  "largura": "1,80",
+  "desc": "399-0-01",
+  "modelo": "MUNDI",
+  "linear": "0,275",
+  "m2": "0,153",
+  "oz": "4,5"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcbc"
+  },
+  "cod": "14,1",
+  "largura": "1,60",
+  "desc": "401-0-29",
+  "modelo": "F.CLEAN",
+  "linear": "0,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcdc"
+  },
+  "cod": "21",
+  "largura": "2,56",
+  "desc": "517-0-01",
+  "modelo": "PERCAL",
+  "linear": "0,367",
+  "m2": "0,143",
+  "oz": "4,2"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce1"
+  },
+  "cod": "23",
+  "largura": "2,55",
+  "desc": "524-3-39",
+  "modelo": "CETIM",
+  "linear": "0,339",
+  "m2": "0,136",
+  "oz": "4,0"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdce5"
+  },
+  "cod": "24,2",
+  "largura": "1,64",
+  "desc": "531-0-01",
+  "modelo": "atualizar",
+  "linear": "0,534",
+  "m2": "0,326",
+  "oz": "9,6"
+},
+{
+  "_id": {
+    "$oid": "64de84993f1ac1972dafdcfc"
+  },
+  "cod": "33,1",
+  "largura": "2,55",
+  "desc": "567-3-55",
+  "modelo": "atualizar",
+  "linear": "0,306",
+  "m2": "0,120",
+  "oz": "3,5"
+},
+{
+  "_id": {
+    "$oid": "655f4c81d1ffac69da6bc95e"
+  },
+  "cod": "0",
+  "largura": "1,74",
+  "desc": "600-3-07",
+  "modelo": "atualizar",
+  "linear": "0,481",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f539bd1ffac69da6bc960"
+  },
+  "cod": "0",
+  "largura": "1,74",
+  "desc": "601-3-07",
+  "modelo": "atualizar",
+  "linear": "0,354",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f540cd1ffac69da6bc962"
+  },
+  "cod": "0",
+  "largura": "1,74",
+  "desc": "601-3-10",
+  "modelo": "atualizar",
+  "linear": "0,363",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f545ad1ffac69da6bc963"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "603-3-10",
+  "modelo": "moda",
+  "linear": "0,355",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f54a2d1ffac69da6bc964"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "600-4-10",
+  "modelo": "moda",
+  "linear": "0,485",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f54d2d1ffac69da6bc965"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "602-4-07",
+  "modelo": "moda",
+  "linear": "0,485",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f550ed1ffac69da6bc966"
+  },
+  "cod": "0",
+  "largura": "1,62",
+  "desc": "597-3-08",
+  "modelo": "moda",
+  "linear": "0,310",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f55c7d1ffac69da6bc968"
+  },
+  "cod": "0",
+  "largura": "1,62",
+  "desc": "533-4-10",
+  "modelo": "atualizar",
+  "linear": "0,370",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f561cd1ffac69da6bc969"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "601-4-08",
+  "modelo": "moda",
+  "linear": "0,350",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f5665d1ffac69da6bc96b"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "600-3-08",
+  "modelo": "moda",
+  "linear": "0,475",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f569ad1ffac69da6bc96c"
+  },
+  "cod": "0",
+  "largura": "2,20",
+  "desc": "606-3-12",
+  "modelo": "moda",
+  "linear": "0,265",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f56ced1ffac69da6bc96d"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "603-4-07",
+  "modelo": "moda",
+  "linear": "0,350",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f570fd1ffac69da6bc96e"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "601-4-10",
+  "modelo": "moda",
+  "linear": "0,350",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f575fd1ffac69da6bc96f"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "608",
+  "modelo": "moda",
+  "linear": "0,420",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f57a0d1ffac69da6bc970"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "598",
+  "modelo": "moda",
+  "linear": "0,385",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f57d2d1ffac69da6bc971"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "573-0-01",
+  "modelo": "atualizar",
+  "linear": "0,149",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f57fed1ffac69da6bc972"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "591-0-01",
+  "modelo": "moda",
+  "linear": "0,175",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f5835d1ffac69da6bc973"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "599",
+  "modelo": "atualizar",
+  "linear": "0,480",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f585fd1ffac69da6bc974"
+  },
+  "cod": "0",
+  "largura": "1,50",
+  "desc": "347-3-09",
+  "modelo": "moda",
+  "linear": "0,123",
+  "m2": ""
+},
+{
+  "_id": {
+    "$oid": "655f979aeb871f981aa1df08"
+  },
+  "cod": "0",
+  "largura": "1,70",
+  "desc": "603-4-10",
+  "modelo": "moda",
+  "linear": "0,355",
+  "m2": ""
+}]

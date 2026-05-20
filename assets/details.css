@@ -1,0 +1,51 @@
+@font-face {
+    font-family: popins;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+body {
+    font-family: popins;
+    background: #ffcc29 url(./img/tecidos-de-qualidade-capa.jpg);
+    z-index: 0;
+    background-position: left;
+}
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 1000px;
+    border: 1px solid #000;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+
+.view-table {
+    border: 1px solid #000;
+    overflow: scroll;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Fundo branco transparente */
+    /* opacity: 0.5; */
+    /* 50% de opacidade */
+}
+
+/*        th {
+    position: sticky;
+    top: 0;
+} */
+
+.area-btn {
+    padding: 10px;
+}
+
+select {
+    height: 30px;
+    width: 100px;
+}

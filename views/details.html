@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+<link rel="stylesheet" href="../assets/details.css">
+<!--hh-->
+</head>
+<body>
+    <main class="container">
+        <h1>Pedidos</h1>
+        <nav class="area-btn">
+            <button id="home" onclick="navegar()">HOME</button>
+            <button id="delete" onclick="apagar(event)">DELETE</button>
+            <button id="buscar" onclick="buscar()">BUSCAR</button>
+            <button id="novo" onclick="novo()">NOVO</button>
+        </nav>
+        <section class="view-table">
+            <select name="filtro" id="filtro" class="filtro" onchange="selectedFiltro(event)">
+                <option value="todos">Todos</option>
+            </select>
+            <dialog id="myDialog" style="background-color: black; color: #fff">DELETADO!</dialog>
+            <table border="1">
+                <thead>
+                    <th>seq</th>
+                    <th>id</th>
+                    <th>nu_pedido</th>
+                    <th>nm_cliente</th>
+                    <th>model</th>
+                    <th>len</th>
+                    <th>codigo</th>
+                    <th>tara</th>
+                    <th>peso</th>
+                    <th>met</th>
+                    <th>linear</th>
+                    <th>status</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </main>
+ 
+<script src="../js/details.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('../sw.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch((err) => console.log('Service Worker registration failed:', err));
+  }
+</script>
+</body>
+</html>
