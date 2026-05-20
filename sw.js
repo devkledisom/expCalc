@@ -46,6 +46,10 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
+  if (event.request.url.startsWith('chrome-extension://')) {
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request)
       .then((response) => {
@@ -54,7 +58,7 @@ self.addEventListener('fetch', (event) => {
         }
         return fetch(event.request)
           .then((response) => {
-            if (!response || response.status !== 200 || response.type !== 'basic') {
+            if (!response || response.status !== 200) {
               return response;
             }
             const responseToCache = response.clone();
