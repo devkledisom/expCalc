@@ -205,15 +205,7 @@ function sendObj() {
     setTimeout(() => { closeDialog() }, 3000);
 }
 
-        transaction.onerror = function (event) {
-            console.log("Error: ", event.target.error);
-        };
-
-        var objectStore = transaction.objectStore("pedidos");
-        objectStore.add(obj);
-    
-
-    //atualizando dados
+//atualizando dados
     function upData(param, obj) {
         const objectStore = db
             .transaction(["pedidos"], "readwrite")
