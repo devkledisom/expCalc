@@ -43,22 +43,15 @@ transaction.oncomplete = function (event) {
 console.log(transaction) */
 
 async function getData(param) {
-    const transaction = db.transaction(["pedidos"]);
-    const objectStore = transaction.objectStore("pedidos");
-    const request = objectStore.getAll();
-    request.onerror = (event) => {
-        // Handle errors!
-        console.log("Error: ", event.target.error);
-    };
-    request.onsuccess = (event) => {
-        // Do something with the request.result!
-        var data = request.result.find((pedido) => pedido[0].nu_pedido == param)
-        //console.log(data);
+    let bd = localStorage.getItem('bd_expedicao');
+    let data = JSON.parse(bd) || [];
 
-        list(data);
-        filtro(data);
-    };
+    if (param) {
+        data = data.filter((pedido) => pedido.nu_pedido == param);
+    }
 
+    list(data);
+    filtro(data);
 }
 
 
@@ -233,30 +226,18 @@ function filtro(artigo) {
 
 function selectedFiltro(event) {
     let valorComparador = event.target.value;
+    let bd = localStorage.getItem('bd_expedicao');
+    let data = JSON.parse(bd) || [];
 
     if (valorComparador === "todos") {
-
         document.querySelector('tbody').innerHTML = "";
-
-        fetch(`${url}/read/pedido/${numAtualPedido}`)
-            .then((x) => x.json())
-            .then((res) => {
-                list(res);
-                filtro(res);
-            });
+        list(data);
     } else {
-        fetch(`${url}/read/pedido/${numAtualPedido}`)
-            .then((x) => x.json())
-            .then((res) => {
-
-                let resultFiltro = res.filter((x) => x.codigo == valorComparador);
-
-                document.querySelector('tbody').innerHTML = "";
-
-                list(resultFiltro);
-
-            });
+        let resultFiltro = data.filter((x) => x.codigo == valorComparador);
+        document.querySelector('tbody').innerHTML = "";
+        list(resultFiltro);
     };
+};
 
 };
 

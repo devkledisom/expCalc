@@ -1,4 +1,4 @@
-const CACHE_NAME = 'expcalc-v2';
+const CACHE_NAME = 'expcalc-v3';
 const urlsToCache = [
   './',
   './index.html',
@@ -9,6 +9,7 @@ const urlsToCache = [
   './assets/details.css',
   './assets/rte.css',
   './assets/tar.css',
+  './js/db.js',
   './js/index.js',
   './js/details.js',
   './js/rte.js',

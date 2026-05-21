@@ -1,11 +1,13 @@
 var numAtualPedido = localStorage.getItem('numeroPedido');
 
-const url = "https://api-expedicao.vercel.app";
-fetch(`${url}/read/tara/true`)
-    .then((x) => x.json())
-    .then((res) => {
-        list(res);
-    })
+async function loadTaras() {
+    const taras = await getTaras();
+    if (taras) {
+        list(taras);
+    }
+}
+
+loadTaras();
 
 function list(obj) {
     const tbody = document.querySelector("tbody");

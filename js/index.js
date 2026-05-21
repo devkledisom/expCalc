@@ -69,9 +69,9 @@ document.querySelector('#codigo').addEventListener("blur", async () => {
     if (flag === 8) {
         let numeroCod = document.querySelector('#codigo').value;
 
-        const path = '../base/rtes.json';
+        var rtes = await getRtes();
 
-        var rtes = await fetch(path).then(x => x.json());
+        if (!rtes) return;
 
         rtes.forEach((rte) => {
             if (rte.desc === numeroCod) {
@@ -85,20 +85,6 @@ document.querySelector('#codigo').addEventListener("blur", async () => {
                 console.log(rte.modelo)
             }
         });
-
-        /* const url = "https://api-expedicao.vercel.app";
-        fetch(`${url}/read/rte/${numeroCod}`)
-            .then((x) => x.json())
-            .then((rte) => {
-                document.querySelector('#model').value = rte[0].modelo;
-                document.querySelector('#len').value = rte[0].largura;
-                document.querySelector('#defaultLinear').value = rte[0].linear;
-                localStorage.setItem('model', rte[0].modelo);
-                localStorage.setItem('len', rte[0].largura);
-                localStorage.setItem('linear', rte[0].linear);
-                calcularParametros();
-                console.log(rte[0].modelo)
-            }) */
     }
 })
 
@@ -109,25 +95,15 @@ btnSave.addEventListener('click', async (e) => {
 
     let numeroCod = document.querySelector('#codigo').value;
 
-    const path = '../base/rtes.json';
+    var rtes = await getRtes();
 
-    var rtes = await fetch(path).then(x => x.json());
+    if (!rtes) return;
 
     rtes.forEach((rte) => {
         if (rte.desc === numeroCod) {
             calculating(parseFloat(rte.linear.replace(",", ".")));
-            //console.log(parseFloat(rte.linear.replace(",", ".")));
         }
     });
-
-    /*     const url = "https://api-expedicao.vercel.app";
-        fetch(`${url}/read/rte/${numeroCod}`)
-            .then((x) => x.json())
-            .then((rte) => {
-                calculating(parseFloat(rte[0].linear.replace(",", ".")));
-                console.log(parseFloat(rte[0].linear.replace(",", ".")));
-            }) */
-
 });
 
 function calculating(rte) {

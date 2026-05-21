@@ -1,13 +1,14 @@
 var numAtualPedido = localStorage.getItem('numeroPedido');
 
-const url = "https://api-expedicao.vercel.app";
-fetch(`${url}/read/rte/true`)
-    .then((x) => x.json())
-    .then((res) => {
-        list(res);
+async function loadRtes() {
+    const rtes = await getRtes();
+    if (rtes) {
+        list(rtes);
         document.querySelector('.lds-ring').style.display = "none";
-    })
-//s
+    }
+}
+
+loadRtes();
 function list(obj) {
     const tbody = document.querySelector("tbody");
     var tara = 0;
