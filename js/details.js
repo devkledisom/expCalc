@@ -44,7 +44,7 @@ console.log(transaction) */
 
 async function getData(param) {
     let bd = localStorage.getItem('bd_expedicao');
-    let data = JSON.parse(bd) || [];
+    let data = bd ? JSON.parse(bd) : [];
 
     if (param) {
         data = data.filter((pedido) => pedido.nu_pedido == param);
