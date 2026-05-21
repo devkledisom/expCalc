@@ -2,7 +2,7 @@ const DB_NAME = 'jsonCacheDB';
 const DB_VERSION = 1;
 const STORE_NAME = 'jsonData';
 
-let db = null;
+let jsonDb = null;
 
 function initDB() {
     return new Promise((resolve, reject) => {
@@ -10,8 +10,8 @@ function initDB() {
 
         request.onerror = () => reject(request.error);
         request.onsuccess = () => {
-            db = request.result;
-            resolve(db);
+            jsonDb = request.result;
+            resolve(jsonDb);
         };
 
         request.onupgradeneeded = (event) => {
@@ -25,11 +25,11 @@ function initDB() {
 
 function getJSONFromDB(id) {
     return new Promise((resolve, reject) => {
-        if (!db) {
+        if (!jsonDb) {
             resolve(null);
             return;
         }
-        const transaction = db.transaction([STORE_NAME], 'readonly');
+        const transaction = jsonDb.transaction([STORE_NAME], 'readonly');
         const store = transaction.objectStore(STORE_NAME);
         const request = store.get(id);
 
@@ -40,11 +40,11 @@ function getJSONFromDB(id) {
 
 function saveJSONToDB(id, data) {
     return new Promise((resolve, reject) => {
-        if (!db) {
+        if (!jsonDb) {
             resolve();
             return;
         }
-        const transaction = db.transaction([STORE_NAME], 'readwrite');
+        const transaction = jsonDb.transaction([STORE_NAME], 'readwrite');
         const store = transaction.objectStore(STORE_NAME);
         const request = store.put({ id, data });
 
