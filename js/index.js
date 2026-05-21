@@ -154,8 +154,7 @@ function calculating(rte) {
         //localStorage.setItem('bd_expedicao', '');
         var bd = localStorage.getItem('bd_expedicao');
 
-
-        if (bd.length > 0) {
+        if (bd && bd.length > 0) {
             var arrModifie = JSON.parse(bd);
             arrModifie.push(obj);
 
