@@ -50,6 +50,20 @@ function calcularParametros() {
 
 calcularParametros();
 
+function savePedido(pedido) {
+    return new Promise((resolve, reject) => {
+        var transaction = db.transaction(["pedidos"], "readwrite");
+        var objectStore = transaction.objectStore("pedidos");
+        var request = objectStore.add(pedido);
+        request.onsuccess = function (event) {
+            resolve(event.target.result);
+        };
+        request.onerror = function (event) {
+            reject(event);
+        };
+    });
+}
+
 document.querySelectorAll("input").forEach((campo) => {
     campo.addEventListener("blur", () => {
         localStorage.setItem(campo.name, campo.value);
@@ -164,6 +178,8 @@ function calculating(rte) {
 
             localStorage.setItem('bd_expedicao', JSON.stringify([obj]));
         }
+
+        savePedido(obj);
 
 
         if (linear >= min && linear <= max) {
