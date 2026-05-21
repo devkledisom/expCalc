@@ -179,8 +179,6 @@ function calculating(rte) {
             localStorage.setItem('bd_expedicao', JSON.stringify([obj]));
         }
 
-        savePedido(obj);
-
 
         if (linear >= min && linear <= max) {
             display.classList.add("aproved");
@@ -211,6 +209,11 @@ function sendObj() {
         showDialog();
         return;
     }
+
+    let pedidos = JSON.parse(bd);
+    pedidos.forEach(pedido => savePedido(pedido));
+
+    localStorage.setItem('bd_expedicao', '');
 
     document.getElementById("peso").value = '';
     document.getElementById("met").value = '';
