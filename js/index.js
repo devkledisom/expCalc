@@ -190,43 +190,20 @@ function calculating(rte) {
 
 
 
-function sendObj(array, status) {
-    var transaction = db.transaction(["pedidos"], "readwrite");
-    var objectStore = transaction.objectStore("pedidos");
-
-    // Obtém o objeto pelo ID/chave
-    var getRequest = objectStore.getAll();
-
-    getRequest.onsuccess = function (event) {
-        var bd = localStorage.getItem('bd_expedicao');
-        var array = JSON.parse(bd);
-        var data = getRequest.result.find((pedido) => pedido[0].nu_pedido == numAtualPedido);
-        if (data == undefined) {
-
-            addData(array);
-
-        } else {
-            upData(data.id, array)
-        }
-
-        document.getElementById("peso").value = '';
-        document.getElementById("met").value = '';
-        eventPeso.focus();
-
-        localStorage.setItem('bd_expedicao', '');
-
+function sendObj() {
+    let bd = localStorage.getItem('bd_expedicao');
+    if (!bd || bd === '[]') {
         showDialog();
-        localStorage.setItem('bd_expedicao', '');
-        setTimeout(() => { closeDialog() }, 3000)
-
+        return;
     }
 
-    //adicionando dados
-    function addData(obj) {
-        var transaction = db.transaction(["pedidos"], "readwrite");
-        transaction.oncomplete = function (event) {
-            console.log("Sucesso");
-        };
+    document.getElementById("peso").value = '';
+    document.getElementById("met").value = '';
+    eventPeso.focus();
+
+    showDialog();
+    setTimeout(() => { closeDialog() }, 3000);
+}
 
         transaction.onerror = function (event) {
             console.log("Error: ", event.target.error);
