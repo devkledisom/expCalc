@@ -236,10 +236,8 @@ function selectedFiltro(event) {
         let resultFiltro = data.filter((x) => x.codigo == valorComparador);
         document.querySelector('tbody').innerHTML = "";
         list(resultFiltro);
-    };
-};
-
-};
+    }
+}
 
 function navegar() {
     location.href = "../index.html"
@@ -248,100 +246,22 @@ function navegar() {
 function deletarPorId(event) {
     let linhas = event.currentTarget.parentNode.parentNode;
     let nu_item = linhas.querySelectorAll('td')[1].innerText;
-    let idPedido = linhas.querySelectorAll('td')[1].innerText;
 
     let validation = confirm(`Excluir o item ${nu_item} ?`);
 
     if (validation) {
-        var transaction = db.transaction(["pedidos"], "readwrite");
-        var objectStore = transaction.objectStore("pedidos");
+        let bd = localStorage.getItem('bd_expedicao');
+        let data = JSON.parse(bd) || [];
 
-        // Obtém o objeto pelo ID/chave
-        var getRequest = objectStore.getAll();
+        data.splice(nu_item, 1);
+        localStorage.setItem('bd_expedicao', JSON.stringify(data));
 
-        getRequest.onsuccess = function (event) {
-            var objeto = getRequest.result;
-            console.log(getRequest)
-
-            var data = getRequest.result.find((pedido) => pedido[0].nu_pedido == numAtualPedido)
-
-            // Verifica se o objeto foi encontrado
-            if (objeto) {
-                //console.log(data[0].nu_pedido)
-                // Remove a propriedade específica
-                //delete data[parseInt(nu_item) + 1];
-                console.log(nu_item)
-
-
-                data.splice(nu_item, 1);
-                console.log(nu_item, 1);
-                //console.log(data[1], nu_item + 1); // [1, 2, 3, 4, 5]
-
-                // Função para compactar um array removendo elementos nulos ou undefined
-                function compactarArray(arr) {
-                    return arr.filter(function (element) {
-                        return element !== null && element !== undefined;
-                    });
-                }
-
-                // Exemplo de uso
-                const arrayNoIndexedDB = [1, 2, null, 4, undefined, 6];
-
-                // Compactar o array
-                const arrayCompactado = compactarArray(data);
-
-                console.log(arrayCompactado);
-
-
-
-
-                // Atualiza o objeto no object store
-                var putRequest = objectStore.put(data);
-
-                putRequest.onsuccess = function (event) {
-                    console.log("Propriedade removida com sucesso:", objeto[0].nu_pedido);
-                    document.querySelector("tbody").innerHTML = '';
-                    getData(numAtualPedido);
-                };
-
-                putRequest.onerror = function (event) {
-                    console.error("Erro ao atualizar objeto:", event.target.error);
-                };
-            } else {
-                console.log("Objeto não encontrado com a chave:", /* chave */);
-            }
-        };
-
-        getRequest.onerror = function (event) {
-            console.error("Erro ao obter objeto:", event.target.error);
-        };
-        /*      fetch(`${url}/delete/pedido/${idPedido}`, {
-                 method: "DELETE"
-             })
-                 .then((x) => x.json())
-                 .then((res) => {
-                     document.querySelector("tbody").innerHTML = '';
-                     fetch(`${url}/read/pedido/${numAtualPedido}`)
-                         .then((x) => x.json())
-                         .then((res) => {
-                             list(res);
-     
-                             showDialog();
-                             setTimeout(() => { closeDialog() }, 4000)
-                         })
-     
-                 }) */
-    } else {
-        //document.querySelector("tbody").innerHTML = '';
-
-        /*  fetch(`${url}/read/pedido/true`)
-             .then((x) => x.json())
-             .then((res) => {
-                 list(res);
-             })*/
+        document.querySelector("tbody").innerHTML = '';
+        getData(numAtualPedido);
+        showDialog();
+        setTimeout(() => { closeDialog() }, 2000);
     }
-
-};
+}
 
 const dialog = document.getElementById("myDialog");
 
