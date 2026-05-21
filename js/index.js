@@ -211,7 +211,7 @@ function sendObj() {
 
         var objectStore = transaction.objectStore("pedidos");
         objectStore.add(obj);
-    }
+    
 
     //atualizando dados
     function upData(param, obj) {
@@ -291,7 +291,7 @@ function sendObj() {
  
              })
      }); */
-};
+//};
 
 function isNotEmpty(value) {
     return value !== '';
